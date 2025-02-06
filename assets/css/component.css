@@ -1,0 +1,8 @@
+.wrap.guide-graph .flex-box {
+  flex-wrap: wrap;
+  gap: calc(16 / 16 * 1rem);
+}
+
+/* min-width : 768 */ 
+@media screen and (min-width: 48rem) {
+}

@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  font-size: 16px;
+}
+body, html {
+  font-family: "Noto Sans", "Noto Sans KR", Arial, Helvetica, sans-serif;
+}
+button, input, select {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", "Noto Sans KR", Arial, Helvetica, sans-serif;
+  outline: 0;
+}
+fieldset, img {
+  border: 0;
+}
+:after, :before {
+    box-sizing: inherit;
+}
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+iframe {
+    border: 0;
+}
+table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    word-break: break-word;
+    word-wrap: break-word;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+caption {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.clfx:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    font-family: var(--fontMain);
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+a[role="button"] {
+    cursor: pointer;
+}
+label {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox  */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.ir-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+p, span, strong, dt, dd {
+    word-break: break-word;
+    word-wrap: break-word;
+}
