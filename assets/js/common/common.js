@@ -40,3 +40,16 @@ if(accordion) {
     })
   });
 }
+
+/* layer-popup */
+const popup = document.querySelectorAll(".layer-popup-wrap");
+if(popup) {
+  popup.forEach((popup) => {
+    const closeBtn = popup.querySelector(".layer-popup__close__button");
+    if(closeBtn) {
+      closeBtn.addEventListener("click", (event) => {
+        popup.classList.remove("is-active");
+      });
+    }
+  });
+}
