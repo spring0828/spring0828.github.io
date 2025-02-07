@@ -418,7 +418,18 @@
   height: calc(24 / 16 * 1rem);
   background: url("/assets/img/btn-close.svg");
 }
-
+.wrap.guide .layer-popup-wrap.is-active .img-box {
+  margin: 0 auto;
+  width: calc(80 / 16 * 1rem);
+  height: calc(80 / 16 * 1rem);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wrap.guide .layer-popup-wrap.is-active .img-box + .guide-style-sub-title {
+  display: block;
+  margin-top: calc(16 / 16 * 1rem);
+  text-align: center;
+}
 .wrap.guide .layer-popup-wrap.is-active .layer-popup__text-box {
   display: flex;
   gap: calc(6 / 16 * 1rem);
