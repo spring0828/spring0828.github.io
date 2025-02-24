@@ -99,7 +99,7 @@
 .wrap.guide.nav-active .content .navigation.is-active .navigation-list {
   display: block;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
 }
